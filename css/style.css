@@ -1,0 +1,252 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #FFFFFF;
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2%;
+    margin: 0% 2% 0% 2%;
+}
+
+.offpage {
+    position: absolute;
+    left: -1000px;
+    /* Add focus style to make it visible when focused */
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: #000;
+    text-decoration: none;
+}
+
+.offpage:focus {
+    position: static;
+    left: 0;
+    top: 0;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+#introduction_index {
+    background-color: #F6F4F5;
+    padding: 2%;
+    margin: -0.5% 2% -2% 2%;
+    line-height: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 130%;
+}
+#maincontent_index {
+    background-color: #F6F4F5;
+    margin: 2%;
+    padding: 1% 2% 3% 2%;
+    border: dashed #000000 3px;
+}
+.blog_list_index {
+    display: inline;
+    padding: 10px;
+	font-size: 130%;
+}
+#blog_list_navigation_index{
+	padding: 2px 1px;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+}
+#warning_title {
+    background-color: #F6F4F5;
+    color: red;
+    padding: 2%;
+    margin: 2% 2% -3% 2%;
+    font-size: 300%;
+}
+#warning_description {
+    background-color: #F6F4F5;
+    color:#000000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 125%;
+    text-decoration-line: underline;
+    font-size: 200%;
+    padding: 2%;
+    margin: 2% 2% -2% 2%;
+}
+#introduction_education_system {
+    background-color: #F6F4F5;
+    padding: 2%;
+    margin: 2%;
+	line-height: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 130%;
+    text-align: justify;
+}
+#maincontent_education_system {
+    background-color: #F6F4F5;
+    padding: 2%;
+    margin: -2% 2% 2% 2%;
+	line-height: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 130%;
+}
+#false_exp_img {
+    padding: 0%;
+    border: #000000 solid 5px;
+    margin: 2%;
+    width: 60%;
+}
+#old_class_img{
+    padding: 0%;
+    border: #000000 solid 5px;
+    margin: 2%;
+}
+#grades_img{
+    padding: 0%;
+    border: #000000 solid 5px;
+    margin: 2%;
+    width: 50%;
+}
+#school_suffocating_img{
+    padding: 0%;
+    border: #000000 solid 5px;
+    margin: 2%;
+    width: 50%;
+}
+#bullying_img{
+    padding: 0%;
+    border: #000000 solid 5px;
+    margin: 2%;
+    width: 50%;
+}
+#introductive_image_education_system{
+    padding: 2%;
+    margin: 0% 2% -2% 2%;
+    background-color: #F6F4F5;
+}
+#education_system_img{
+    width: 50%;
+    margin: 0% 0% -2% 0%;
+}
+.blog_list_education_system {
+    display: inline;
+    padding: 2% 2% 2% 0%;
+	font-size: 100%;
+}
+#blog_list_navigation_education_system a{
+    color: #FFFFFF; 
+}
+#blog_list_navigation_education_system{
+    display: flex;
+    flex-direction: column;
+}
+#blog_list_navigation_low-codeno-code_tools a{
+    color: #FFFFFF;
+}
+#blog_list_navigation_low-codeno-code_tools{
+    display: flex;
+    flex-direction: column;
+}
+.blog_list_low-codeno-code{
+    display: inline;
+    padding: 2% 2% 2% 0%;
+    font-size: 100%;
+}
+#introductive_image_low-codeno-code{
+    padding: 2%;
+    margin: 0% 2% -2% 2%;
+    background-color: #F6F4F5;
+}
+#popular_platforms_img {
+    width: 50%;
+    margin: 0% 0% -2% 2%;
+}
+#introduction_low-codeno-code_tools{
+    background-color: #F6F4F5;
+    padding: 2%;
+    margin: 2%;
+	line-height: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 130%;
+}
+#maincontent_low-codeno-code_tools{
+    background-color: #F6F4F5;
+    padding: 2%;
+    margin: -2% 2% 2% 2%;
+	line-height: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 130%;
+}
+#no-code-development_img {
+    width: 55%;
+    margin: 2%;
+    border: #000000 dashed 5px;
+    border-radius: 2px;
+}
+#wix_logo_img {
+    width: 40%;
+    margin: 2%;
+    border: solid #000000 5px;
+}
+#appsheet_logo_img {
+    width: 40%;
+    border: solid #000000 2px;
+    margin: 2%;
+}
+#flowiseai_logo_img {
+    width: 65%;
+    border: solid #000000 1px;
+    margin: 2%;
+}
+footer {
+    background-color: #F6F4F5;
+    font-size: 130%;
+    margin: -2% 2% 2% 2%;
+    padding: 2%;
+}
+button {
+    background-color: #000000;
+    width: 130px;
+    height: 35px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+button a{
+    text-decoration: none;
+    color: #FFFFFF;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+button:hover{
+    background-color: #afafaf;
+}
+button a:hover{
+    color: #000000;
+}
+#go_back_myprojects{
+    color: #FFFFFF;
+}
+#maincontent_myprojects{
+    background-color: #F6F4F5;
+    padding: 2%;
+    margin: -0.5% 2% 2% 2%;
+	line-height: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 130%;
+}
+.testcases_grid_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0.5% 4%;
+    margin: 3%;
+    padding: 0px 0px 100px 0px;
+}
+.testcase_san_raffaele img {
+    width: 794px;
+}
+.testcase_san_raffaele:nth-child(1n) {
+    border: #000000;
+  }
